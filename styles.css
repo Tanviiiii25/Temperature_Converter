@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+    background-image: url("f2bg.jpg");
+}
+
+#divv{
+  margin: auto;
+  margin-top: 15%;
+  width: 25%;
+  border: 3px solid #135b68;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#output1{
+    margin-left: 2%;
+}
+
+#output2{
+    margin-left: 9%;
+}
+
+#output3{
+    margin-left: 7.5%;
+}
+
+#output1, #output2, #output3{
+    font-size: 18px;
+}
+
+#clear{
+    margin-left: 46%;
+    font-size: 16px;
+}
+
+h2{
+    margin-left: 5%;
+}

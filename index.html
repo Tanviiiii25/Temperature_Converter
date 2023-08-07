@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id = "divv">
+        <h2>Temperature Converter</h2>
+        <form id="formm">
+            <p>Fahrenheit: <input id="output1" type="number"  oninput="temperatureConverter1(this.value)" onchange="temperatureConverter1(this.value)"></p>
+      
+            <P>Kelvin: <input id="output2" type="number"  oninput="temperatureConverter2(this.value)" onchange="temperatureConverter2(this.value)"></p>
+
+            <p>Celcius: <input id="output3" type="number"  oninput="temperatureConverter3(this.value)" onchange="temperatureConverter3(this.value)"></p>
+            
+            <input type="reset" id="clear" value="Clear">
+
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
